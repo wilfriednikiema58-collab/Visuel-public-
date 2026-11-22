@@ -219,8 +219,8 @@ f'''<div class="lab">LA SOLUTION</div><h1>Couper la route<br><em>de l'eau</em></
 </div>''',
 f'''<div class="lab">À RETENIR</div><h1>Ça se prévoit<br><em>sur le plan</em></h1>
 <div class="box" style="top:424px;font-size:33px">Une maison sans arase étanche peut garder ce problème <b>toute sa vie</b>. Le traiter après coup est bien plus compliqué et plus cher.</div>
-<div class="box o" style="top:690px;font-size:33px">Sur mes plans, la coupe montre l'arase, le soubassement et le trottoir. Le maçon sait <b>exactement</b> quoi faire.</div>
-<div class="box" style="top:970px;left:150px;right:150px;text-align:center;font-size:31px;padding:22px"><b>Ton projet ? Écris-moi en privé</b></div>''']
+<div class="box o" style="top:690px;font-size:33px">Sur nos plans, la coupe montre l'arase, le soubassement et le trottoir. Le maçon sait <b>exactement</b> quoi faire.</div>
+<div class="box" style="top:970px;left:150px;right:150px;text-align:center;font-size:31px;padding:22px"><b>Ton projet ? Écris-nous en privé</b></div>''']
 
 def html_for(name):
     sl=SERIES[name]; n=len(sl)
