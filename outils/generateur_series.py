@@ -39,7 +39,7 @@ DEFS="""<svg width="0" height="0" style="position:absolute"><filter id="noise"><
 <marker id="arb" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#2f78c4"/></marker>
 <marker id="arn" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#17457d"/></marker>
 </defs></svg>"""
-WM='<div class="wm">Wilfried · Plans &amp; Construction</div>'
+WM='<div class="wm">Plans &amp; Construction</div>'
 
 def slide(i,n,body,swipe=False):
     return f'<div class="s"><div class="tex"></div><div class="grid"></div>{body}<div class="pg">{i} / {n}</div>{WM}{"<div class=swipe>Glisse pour la solution →</div>" if swipe else ""}</div>'
